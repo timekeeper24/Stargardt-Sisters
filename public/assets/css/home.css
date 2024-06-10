@@ -4,12 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 html, body {
     height: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: black;
     color: white;
     font-family: Arial, sans-serif;
@@ -74,7 +73,6 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: fit-content; /* Set the height of the container to fill the viewport */
         background-color: #121212;
     }
 
