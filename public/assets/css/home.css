@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -85,4 +85,5 @@ body {
         border-radius: 5px;
         box-shadow: 0 2px 200px rgba(40, 42, 33, 0.1);
     }
+
 }

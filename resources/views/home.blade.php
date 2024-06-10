@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="{{ asset('assets/css/home.css') }}">
 </head>
 <body>
+    <!-- Nav Bar -->
+    @include ('nav-header')
+
 <div class="home-wrapper">
 
     <div class="main-section-of-home">
