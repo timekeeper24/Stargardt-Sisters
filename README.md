@@ -1,5 +1,5 @@
 # Mission
-Stargardt disease is a genetic eye disorder where vision becomes obscured, leading to sensitivity to light, color blindness, and loss of vision.  This disease has been found in two young sisters, Lucia and Seraphina, and has since proven to be very difficult to deal with.   The mission of The Stargardt Sisters is to spread awareness, and build community for those who are going through similar situations.  There will be a contact form on the site for anyone that wants to reach out with any further advice, well wishes, or questions.  
+Stargardt disease is a genetic eye disorder where vision becomes obscured, leading to sensitivity to light, color blindness, and loss of vision.  This disease has been found in two young sisters, Lucia and Serafina, and has since proven to be very difficult to deal with.   The mission of The Stargardt Sisters is to spread awareness, and build community for those who are going through similar situations.  There will be a contact form on the site for anyone that wants to reach out with any further advice, well wishes, or questions.  
 
 # Technical Implementation
 ## Requirements
