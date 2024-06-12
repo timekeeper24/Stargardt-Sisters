@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.grid-item {
+    width: 40vw;
+    min-height: 300px;
+    height: 40vh;
+    border: 5px outset;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    max-width: fit-content;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inline-grid-item {
+    margin-top: 10px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.grid-visual {
+    height: 35%;
+    background-color: red;
+    opacity: 1;
+    border-radius: 12px;
+    transition: height .5s ease, opacity .5s ease;
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.grid-visual img {
+    width: 100%;
+    height: 100%;
+    object-position: 100% 23%;
+    object-fit: cover;
+}
+
+.grid-item-text-area {
+    height: 50%;
+    transition: height .5s ease, opacity .5s ease;
+}
+.text {
+    height: 70%;
+    border: 3px inset;
+    margin-bottom: 10px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+.text p {
+    padding: 10px;
+}
+.grid-more-info-button {
+    height: 27%;
+    border: 5px solid black;
+    border-radius: 25px;
+    background-color: grey;
+    transition: height .5s ease, opacity .5s ease;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-more-info-button:hover {
+    border-color: gray;
+    background-color: lightgray;
+    transition-duration: .5s;
+}
+.grid-item:has(> div.grid-item-text-area:hover) .grid-visual {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+.grid-item:has(> div.grid-item-text-area:hover) .grid-more-info-button {
+    height: 17%;
+}
+.grid-item-text-area:hover {
+    height: 90%;
+    transition-duration: .5s;
+}

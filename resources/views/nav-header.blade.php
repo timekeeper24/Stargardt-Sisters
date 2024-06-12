@@ -12,7 +12,7 @@
     <nav>
         <a class="nav-button" href="https://www.fightingblindness.org/resources/the-stargardt-sisters-258">About</a>
         <a class="nav-button">Gallery</a>
-        <a class="nav-button">News</a>
+        <a class="nav-button" href="{{route('news')}}">News</a>
         <a class="nav-button">Contact</a>
     </nav>
 
