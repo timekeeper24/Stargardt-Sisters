@@ -1,0 +1,90 @@
+:root
+{
+    /* VALUES */
+    --dark0_x:  73,36,62; /* 49243E */
+    --dark1_x:  112,66,100; /* 704264 */
+    --dark2_x:  187,132,147; /* BB8493 */
+    --dark3_x:  219,175,160; /* DBAFA0 */
+
+    --light0_x: 148,78,99; /* 944E63 */
+    --light1_x: 202,166,166; /* B47B84 */
+    --light2_x: 202,166,166; /* CAA6A6 */
+    --light3_x: 255,231,231; /* FFE7E7 */
+
+    /* accents */
+    --accent0_x: 241,229,209; /* F1E5D1 */
+    --accent1_x: 219,181,181; /* DBB5B5 */
+    --accent2_x: 195,152,152; /* C39898 */
+    --accent3_x: 152,112,112; /* 987070 */
+
+    /* sup colors (should work with light and dark) */
+    --header1_x:    ; /* hexcode */
+    --header2_x: ; /* hexcode */
+    --text_x: ; /* hexcode */
+    --bold_x:  ; /* hexcode */
+    --purple_x: ; /* hexcode */
+
+
+    /* CSS VARIABLES */
+    --dark0:    rgb(var(--dark0_x));
+    --dark1:    rgb(var(--dark1_x));
+    --dark2:    rgb(var(--dark2_x));
+    --dark3:    rgb(var(--dark3_x));
+
+    --light0:   rgb(var(--light0_x));
+    --light1:   rgb(var(--light1_x));
+    --light2:   rgb(var(--light2_x));
+    --light3:   rgb(var(--light3_x));
+
+    --accent0:   rgb(var(--accent0_x));
+    --accent1:   rgb(var(--accent1_x));
+    --accent2:   rgb(var(--accent2_x));
+    --accent3:   rgb(var(--accent3_x));
+
+    --header1:      rgb(var(--header1_x));
+    --header2:   rgb(var(--header2_x));
+    --text:   rgb(var(--text_x));
+    --green:    rgb(var(--bold_x));
+    --purple:   rgb(var(--purple_x));
+
+    --dark-button: rgb(152, 112, 112);
+    --dark-button-hover: rgb(195, 152, 152);
+    --light-button: rgba(219, 181, 181, 93%);
+    --light-button-hover: rgba(195, 152, 152,87%);
+
+}
+
+.theme-dark
+{
+    --color-purple:                  var(--purple);
+    --color-green:                   var(--green);
+    --color-cyan:                    var(--accent1);
+    --color-blue:                    var(--accent3);
+
+    --background-primary:            var(--dark0);
+    --background-primary-alt:        var(--dark0);
+    --background-secondary:          var(--dark1);
+    --background-secondary-alt:      var(--dark2);
+    --background-modifier-border:    var(--dark2);
+
+    --text-normal:                   var(--light2);
+    --text-faint:                    var(--light0);
+    --text-muted:                    var(--light1);
+
+    --link-url:                      var(--purple);
+
+    --h1-color:                      var(--header1);
+    --h2-color:                      var(--header2);
+    --text:                          var(--text);
+    --h4-color:                      var(--purple);
+    --h5-color:                      var(--accent0);
+    --h6-color:                      var(--accent2);
+
+    --text-highlight-bg:             var(--accent1);
+    --text-highlight-fg:             var(--dark0);
+
+    --bold-color:                    var(--bold_x);
+
+    --button: var(--dark-button);
+    --button-hover: var(--dark-button-hover);
+}
