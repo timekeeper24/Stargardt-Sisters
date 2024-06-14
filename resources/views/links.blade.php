@@ -13,7 +13,7 @@
     @foreach($links as $link)
         <div class="grid-item">
             <div class="grid-visual border inline-grid-item">
-                <img src="{{$link['img_src']}}" alt="{{$link['img_alt']}}">
+                <img src="{{$link['img_src']}}" alt="{{$link['img_alt']}}" title="{{$link['img_alt']}}">
             </div>
             <div class="grid-item-text-area border inline-grid-item">
                 <div class="text border">
