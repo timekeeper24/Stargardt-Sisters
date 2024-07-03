@@ -1,0 +1,11 @@
+body {
+    background-color: rgba(0, 0, 0, 0.87);
+}
+.lpfont{
+    font-size: 14pt;
+}
+.intro-box-height {
+    height: 10px;
+    max-height: 500px;
+
+}
