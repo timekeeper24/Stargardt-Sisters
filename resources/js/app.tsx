@@ -9,7 +9,7 @@ createInertiaApp({
     progress: {
         'color': "#cc5858"
     },
-    title: title => `${title} - Webapps`,
+    title: title => `Stargardt Sisters`,
     resolve: name => {
         // @ts-ignore
         const pages = import.meta.glob('./Pages/**/*.tsx', { eager: true })

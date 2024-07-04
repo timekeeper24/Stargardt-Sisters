@@ -1,5 +1,4 @@
-// @ts-ignore
-import React, {useEffect, useState} from "react";
+import * as React from "react";
 import {
     Button,
     Card,
