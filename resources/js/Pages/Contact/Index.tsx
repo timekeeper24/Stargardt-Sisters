@@ -19,6 +19,8 @@ const validateMessages = {
 };
 const onFinish = (values: any) => {
     console.log(values);
+    let x = window.location.href + "-submit";
+    console.log(x);
 };
 const DeveloperIndex: React.FC<{}> = () => {
 

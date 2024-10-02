@@ -11,4 +11,9 @@ class ContactFormController extends Controller
     {
         return Inertia::render('Contact/Index', []);
     }
+    public function submit(Request $request)
+    {
+        dd($request->all());
+        return Inertia::render('Contact/Index', []);
+    }
 }

@@ -20,7 +20,7 @@
             <span class="border-extend"></span>
             <video controls>
                 <source src="{{ asset('assets/video_name.mp4') }}" type="video/mp4">
-                Your browser does not support the video tag.
+                Your browser does not support this video.
             </video>
         </div>
     </div>
